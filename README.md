@@ -11,7 +11,7 @@ Modele:
 
 Experymenty:
 - calculate the Fr´echet Inception Distance (FID) for your generated images and
-compare it to results from literature
+compare it to results from literature - https://paperswithcode.com/sota/image-generation-on-lsun-bedroom-256-x-256
 - assess your results qualitatively
 - investigate the influence of hyperparameters on obtained results
  - discuss sets of hyperparameters which help in overcoming training collapse and
