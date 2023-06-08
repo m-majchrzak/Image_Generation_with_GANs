@@ -1,10 +1,6 @@
-import os
 import pathlib
-import shutil
-
 import tensorflow as tf
 from pyunpack import Archive
-from tqdm import tqdm
 
 # Downloading data
 def download_dataset(data_path):

@@ -5,8 +5,8 @@ The aim of this raport is to present the results of a project conducted as part 
 ToDo:
 
 Modele:
-- jeden model uczony od zera (DCGAN?)
-- 2 z listy (DCGAN + StyleGAN3) (gotowy + dotrenowanie)
+- jeden model uczony od zera (DCGAN?) (Martyna)
+- 2 z listy (StyleGAN2 + StyleGAN3) (gotowy + dotrenowanie) (Martyna)
 - Stable diffusion (Władek)
 
 Experymenty:
