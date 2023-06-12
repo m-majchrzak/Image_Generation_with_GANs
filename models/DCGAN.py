@@ -80,7 +80,7 @@ class Generator(nn.Module):
     
 class Generator_dropout(nn.Module):
     def __init__(self, ngpu, nz, ngf, nc, dropout=0.5):
-        super(Generator, self).__init__()
+        super(Generator_dropout, self).__init__()
         self.ngpu = ngpu
         self.main = nn.Sequential(
             # input is Z, going into a convolution
