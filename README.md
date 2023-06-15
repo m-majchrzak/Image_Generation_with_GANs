@@ -11,5 +11,5 @@ The notebooks contain the experiments and the visualisations of images created i
 - DCGAN - regular DCGAN 64x64 trained for 5 epochs
 - DCGAN64_dropout - DCGAN 64x64 with dropout, soft labels and using SGD trained for 10 epochs
 - DCGAN64_fid_interpolation - regular DCGAN 64x64 trained for 10 epochs (final model) with the FID calculation and visualisation of images cteated from a interpolation of two latent vectors
-- DCGAN128_dropot - DCGAN 128x128 with dropout, soft labels and using SGD, training stopped due to time of computation
+- DCGAN128_dropout - DCGAN 128x128 with dropout, soft labels and using SGD, training stopped due to time of computation
 - DCGAN128_fail - regular DCGAN 128x128, training stopped due to model collapse
