@@ -6,10 +6,11 @@ The folders contain:
 - models - implementation of different versions of the the DCGAN model
 - utils - functions for downloading dataset and other miscellaneous
 - weights - DCGAN models trained during the experiments (one using dropout trained for 10 epochs, and the original architecture trained for 5 epochs and 10 epochs)
+- images - a place to temporarily store images for FID calculations
 
 The notebooks contain the experiments and the visualisations of images created in them:
-- DCGAN - regular DCGAN 64x64 trained for 5 epochs
+- DCGAN64 - regular DCGAN 64x64 trained for 5 epochs
 - DCGAN64_dropout - DCGAN 64x64 with dropout, soft labels and using SGD trained for 10 epochs
 - DCGAN64_fid_interpolation - regular DCGAN 64x64 trained for 10 epochs (final model) with the FID calculation and visualisation of images cteated from a interpolation of two latent vectors
 - DCGAN128_dropout - DCGAN 128x128 with dropout, soft labels and using SGD, training stopped due to time of computation
-- DCGAN128_fail - regular DCGAN 128x128, training stopped due to model collapse
+- DCGAN128 - regular DCGAN 128x128, training stopped due to model collapse
